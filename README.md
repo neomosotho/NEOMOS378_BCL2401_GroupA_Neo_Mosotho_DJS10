@@ -20,19 +20,32 @@ Your task is to build a React application that makes HTTP GET requests to the JS
     ![alt text](<images/error-message.png>)
 5. **Testing Error States**: Simulate an error state by modifying the API URL to an incorrect address, and observe if the application correctly handles the error by displaying the appropriate message.
 
-#### Additional Guidelines
+## Features
+Fetches blog posts using the JSONPlaceholder API.
+Displays post titles and bodies in a user-friendly interface.
+Handles errors during the API call and displays an error message.
 
-- Prioritize clean, readable code. Make sure to separate concerns by keeping your fetching logic and UI rendering distinct.
-- Comment your code where necessary to explain why certain decisions were made, especially around error handling.
-- No styling is required.
+## Requirements
+Node.js and npm (or yarn) installed on your system.
+Basic understanding of React concepts (components, state management, hooks).
 
+## Setup
+Clone this repository or download the code.
+Install dependencies:
+npm install
 
-#### Evaluation Criteria
+## Running the application
+Start the development server:
+npm run dev
 
-- Correct implementation of asynchronous data fetching.
-- Effective state management and error handling.
-- Code readability and structure.
-- Handling of edge cases and potential errors.
+## Testing Error States
+You can test the error handling by modifying the API URL in src/App.js to an invalid address. The application should display an error message indicating the issue.
+
+## Challenges
+
+1. Fetching data from an API can be tricky.
+2. Inline styling using JavaScript.
+
 
 
 
